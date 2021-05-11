@@ -1,12 +1,12 @@
 package giftshop.model;
 
 public class Delivery {
-     String message;
-    public Delivery (String message){
-        this.message = message;
+     String deliveryDate;
+    public Delivery (String date){
+        this.deliveryDate = date;
     }
-     String deliver(){
-         return message;
+    String setDeliveryDate(){
+         return deliveryDate;
      }
     Boolean CheckDelivery(boolean recived){
          return recived;
